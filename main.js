@@ -11,7 +11,7 @@ const opened = new Date('2022-11-19');
 const today = new Date();
 const age = today - opened;
 const nigger = Math.floor(age / (1000 * 60 * 60 * 24));
-document.getElementById("age").innerText = `the world is ${nigger} days old and over 25 gigabytes in size with over 200 players visiting.`;
+document.getElementById("age").innerText = `the world is ${nigger} days old and over 30 gigabytes in size with over 250 players visiting.`;
 
 
 const api = "https://api.mcsrvstat.us/3/not2b2t.org";
