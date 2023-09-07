@@ -6,6 +6,8 @@ function handleCopy() {
 
 }
 
+const about = "not2b2t is a minecraft anarchy server with a world that never resets and free for all pvp environment.";
+document.getElementById("about").innerText = about;
 
 const opened = new Date('2022-11-19');
 const today = new Date();
