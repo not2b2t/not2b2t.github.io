@@ -43,7 +43,7 @@ h2 {
 }
 
 .mc-banner {
-    background-image: url("/banner.jpg");
+    background-image: url("https://not2b2t.org/banner.jpg");
     background-size: cover;
     border-radius: 16px;
     height: 100%;
