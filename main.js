@@ -2,7 +2,6 @@ function handleClick() {
   const ip = "not2b2t.org";
   const copied = document.getElementById("success");
   navigator.clipboard.writeText(ip);
-  copied.innerHTML = "IP copied to clipboard.";
 }
 
 function joinDiscord() {
