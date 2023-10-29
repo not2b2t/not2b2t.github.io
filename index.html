@@ -1,47 +1,76 @@
 <html>
-<head>
-    <title>not2b2t</title>
-    <meta name="description" content="Join the best 1.20 minecraft anarchy server now using IP not2b2t.org" />
-    <meta name="viewport" content="width=device-width, initial-scale=0.7" />
-    <link rel="icon" type="image/x-icon" href="./logo.png">
-    <link rel="stylesheet" href="./style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Girassol&family=Montserrat:wght@300&family=Oswald:wght@700&family=Rowdies&family=Short+Stack&family=Ubuntu:ital,wght@1,300&display=swap" rel="stylesheet">
-    <meta name="keywords" content="2b2t, minecraft, anarchy, server, hausemaster, 2builders2tools, 2b2t alternative, survival, chaos, exploration">
-</head>
-<body>
-    <noscript>
-        <META HTTP-EQUIV="Refresh" CONTENT="0;URL=noscript.html">
-      </noscript>
-    <header>
-        <img src="./header.png" height="150px" width="400px">
-    </header>
-    
-    <div class="container">
-        <h1 style="padding: 40px 0px">not2builders2tools</h1>
-        <div class="txt-center">
-        <div id="about"></div>
-        <br>
-        <div id="age"></div>
-        <br>
-        <div id="players"></div>
-        <button onclick="handleCopy()">not2b2t.org</button>
-        <p>Click to join!</p>
+    <head>
+        <title>not2b2t</title>
+        <link rel="icon" type="image/x-icon" href="https://not2b2t.org/logo.png">
+        <link rel="stylesheet" href="/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    </head>
+    <body>
+    <div class="center">
+            <div class="navbar">
+                <img class="logo" src="https://not2b2t.org/logo.png" width="40" height="40">
+                <h2>not2b2t.org</h2>
+                <div class="right"><div id="navbarCount"></div></div>
+            </div>
+
+
+            <div class="upper">
+            <div class="mc-banner">
+                <h1>JOIN NOT2B2T MINECRAFT ANARCHY</h1>
+                <p class="sub">No rules, no admins, do whatever you want</p>
+            </div>
+
+            <div class="discordContainer" onclick="joinDiscord()">
+                <img src="/dc.png" width="160" height="32">
+                <div id="online"></div>
+            </div>
+            </div>
+
+
+            <div class="middler">
+            <div class="box">
+                <h2 style="text-align: center;">About</h2>
+                <p>not2b2t is a minecraft vanilla anarchy server<br> founded in november 2022. it has zero rules and no admin intervention.<p id="age"></p>
+                    <p id="playerCount"></p>
+                </p>
+            </div>
+
         
-        
-        </div>
-        
-        
+            <div class="stats">
+                <div class="statcontainer"><h4>Players joined:&nbsp;&nbsp;>350</h4></div>
+                <div class="statcontainer"><h4 id="days"></h4></div>
+                <div class="statcontainer"><h4>World size:&nbsp;&nbsp; >32 gigabytes</h4></div>
+                <div class="statcontainer"><h4>Hardware:&nbsp;&nbsp;i9-9900K, 5gb ram, 100gb nvme ssd</h4></div>
+            </div>
+            </div>
+
+
+            <div class="downer">
+            <div class="copyip">
+                <h1 style="text-align: center;">not2b2t.org</h1>
+                <div class="copyContainer">
+                    <p class="java">Java Edition</p><button onclick="handleClick()">COPY IP</button>
+                    <div id="success"></div>
+                </div>
+            </div>
+            <div class="commands">
+                <h3 style="color: white; font-family: sans-serif; margin-left: 2%;">Commands</h3>
+                <div class="same-line"><div class="cmd">/discord</div>&nbsp;Gives the discord link</div>
+                <div class="same-line"><div class="cmd">/donate</div>&nbsp;Gives the donation link</div>
+                <div class="same-line"><div class="cmd">/website</div>&nbsp;Gives the link for this website</div>
+                <div class="same-line"><div class="cmd">/suicide</div>&nbsp;Pretty self explanatory</div>
+                <div class="same-line"><div class="cmd">/msg</div>&nbsp;Send a private message to a player</div>
+                <div class="same-line"><div class="cmd">/w</div>&nbsp;Whisper to a player</div>
+            </div>
+            </div>
+            <iframe style="width:100%;height:90px;max-width:100%;border:none;display:block;margin:auto;padding-top:2%;" src="https://fi.namemc.com/server/not2b2t.org/embed" width="728" height="90"></iframe>
+            <span></span>
+            <div id="copyright">&copy; not2b2t.org &middot; shitty site made by <a href="https://mutsis.is-a.dev">trvnj</a>&nbsp;&middot;&nbsp;<a href="https://paypal.me/not2b2t">Donate</a>&nbsp;&middot;&nbsp;<a href="https://minecraft-mp.com/server-s323276">Vote</a></div>
     </div>
-    <span></span>
-    <footer>
-        <a href="mailto:info@not2b2t.org">Contact us</a>
-        <a href="https://dsc.gg/not2b2t">Discord</a>
-        <a href="https://paypal.me/not2b2t">Donate</a>
-    </footer>
-    
-</body>
-<script src="./main.js"></script>
+    </body>
+    <script src="/main.js"></script>
 </html>
-<! -- cock8boobs approved server -->
+
