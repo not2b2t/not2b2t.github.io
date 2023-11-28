@@ -13,7 +13,7 @@ const opened = new Date('2022-11-19');
 const today = new Date();
 const age = today - opened;
 const nigger = Math.floor(age / (1000 * 60 * 60 * 24));
-document.getElementById("age").innerHTML = `the world is <strong>${nigger} days</strong> old and it's size is over <strong>30 gigabytes</strong><br> with over <strong>370 people</strong> visiting.`;
+document.getElementById("age").innerHTML = `the world is <strong>${nigger} days</strong> old and it's size is over <strong>30 gigabytes</strong><br> with over <strong>350 people</strong> visiting.`;
 document.getElementById("days").innerHTML = `World age:&nbsp;&nbsp; ${nigger} days`;
 
 
