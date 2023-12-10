@@ -1,7 +1,7 @@
 function handleClick() {
   const ip = "not2b2t.org";
   navigator.clipboard.writeText(ip);
-  alert("IP copied to clipboard.");
+  $("#success").append("IP address copied to clipboard.")
 }
 
 function joinDiscord() {
