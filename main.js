@@ -9,7 +9,7 @@ function joinDiscord() {
 }
 
 var thisYear = new Date().getFullYear();
-document.getElementById("copyright").innerHTML = `&copy; not2b2t.org 2022-${year}`;
+document.getElementById("copyright").innerHTML = `&copy; not2b2t.org 2022-${thisYear}`;
 
 const opened = new Date('2022-11-19');
 const today = new Date();
