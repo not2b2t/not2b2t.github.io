@@ -8,6 +8,7 @@ function joinDiscord() {
   window.open("https://not2b2t.org/discord");
 }
 
+var thisYear = new Date().getFullYear();
 
 const opened = new Date('2022-11-19');
 const today = new Date();
